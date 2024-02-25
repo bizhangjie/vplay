@@ -19,24 +19,24 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
 
     <script>
-        // 禁用右键单击
-        document.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        });
-
-        document.onkeydown = function (e) {
-            if (event.keyCode == 123) { // F12键的键码是123
-
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Something went wrong!',
-                    footer: '<a href="">Why is this happening ?</a>'
-                })
-
-                return false;
-            }
-        }
+        // // 禁用右键单击
+        // document.addEventListener('contextmenu', function (e) {
+        //     e.preventDefault();
+        // });
+        //
+        // document.onkeydown = function (e) {
+        //     if (event.keyCode == 123) { // F12键的键码是123
+        //
+        //         Swal.fire({
+        //             icon: 'error',
+        //             title: 'Oops...',
+        //             text: 'Something went wrong!',
+        //             footer: '<a href="">Why is this happening ?</a>'
+        //         })
+        //
+        //         return false;
+        //     }
+        // }
     </script>
 
     <style>
@@ -106,18 +106,18 @@
                             <span class="nav-link-inner--text d-lg-none">博客</span>
                         </a>
                     </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a-->
-<!--                                class="nav-link nav-link-icon"-->
-<!--                                href="https://youtube.com/channel/UCCY24D6Az4xT2XUHpqjHMpg"-->
-<!--                                target="_blank"-->
-<!--                                data-toggle="tooltip"-->
-<!--                                title="Follow us on Youtube"-->
-<!--                        >-->
-<!--                            <i class="fa fa-youtube"></i>-->
-<!--                            <span class="nav-link-inner&#45;&#45;text d-lg-none">Youtube</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a-->
+                    <!--                                class="nav-link nav-link-icon"-->
+                    <!--                                href="https://youtube.com/channel/UCCY24D6Az4xT2XUHpqjHMpg"-->
+                    <!--                                target="_blank"-->
+                    <!--                                data-toggle="tooltip"-->
+                    <!--                                title="Follow us on Youtube"-->
+                    <!--                        >-->
+                    <!--                            <i class="fa fa-youtube"></i>-->
+                    <!--                            <span class="nav-link-inner&#45;&#45;text d-lg-none">Youtube</span>-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     <li class="nav-item">
                         <a
                                 class="nav-link nav-link-icon"
@@ -150,7 +150,7 @@
 
 <!---->
 <main class="profile-page">
-    <section class="section-profile-cover section-shaped my-0">
+    <section class="section-profile-cover section-shaped my-0" style="height: 400px">
         <!-- Circles background -->
         <div class="shape shape-style-1 shape-primary alpha-4">
             <span></span>
@@ -180,7 +180,7 @@
             </svg>
         </div>
     </section>
-    <section class="section">
+    <section class="section" style="padding-top: 0rem">
         <div class="container">
             <div class="card card-profile shadow mt--300 ">
                 <div class="px-4">
@@ -188,10 +188,10 @@
                         <div class="col-lg-3 order-lg-2">
                             <div class="card-profile-image">
                                 <a href="#">
-<!--                                    <img-->
-<!--                                            src="https://npm.elemecdn.com/boke-cdn/img/logo.jpg"-->
-<!--                                            class="rounded-bottom"-->
-<!--                                    />-->
+                                    <!--                                    <img-->
+                                    <!--                                            src="https://npm.elemecdn.com/boke-cdn/img/logo.jpg"-->
+                                    <!--                                            class="rounded-bottom"-->
+                                    <!--                                    />-->
                                 </a>
                             </div>
                         </div>
@@ -236,14 +236,15 @@
                                         <span class="col-sm-2 col-form-label text-right">选择接口：</span>
                                         <div class="col-sm-10">
                                             <select class="form-control input-lg" id="jk">
-                                                <option value="https://jx.jsonplayer.com/player/?url=" selected="">B站1</option>
+                                                <option value="https://jx.jsonplayer.com/player/?url=" selected="">B站1
+                                                </option>
                                                 <option value="https://jx.aidouer.net/?url=">爱豆</option>
                                                 <option value="https://www.gai4.com/?url=">CHok</option>
                                                 <option value="https://jx.rdhk.net/?v=">RDHK</option>
                                                 <option value="https://jx.blbo.cc:4433/?url=">人人迷</option>
                                                 <option value="https://jsap.attakids.com/?url=">思古3</option>
                                                 <option value="https://jx.dj6u.com/?url=">听乐</option>
-                                                <option value="https://yun.nxflv.com/?url=" >
+                                                <option value="https://yun.nxflv.com/?url=">
                                                     （通用vip接口①（支持全网大部分原画，超级稳定）
                                                 </option>
                                                 <option value="https://okjx.cc/?url=">（通用vip接口②（OK)</option>
@@ -341,24 +342,24 @@
                 >
                     <i class="fa fa-qq"></i>
                 </a>
-<!--                <a-->
-<!--                        target="_blank"-->
-<!--                        href="https://youtube.com/channel/UCCY24D6Az4xT2XUHpqjHMpg"-->
-<!--                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"-->
-<!--                        data-toggle="tooltip"-->
-<!--                        data-original-title="Like us"-->
-<!--                >-->
-<!--                    <i class="fa  fa-youtube-play"></i>-->
-<!--                </a>-->
-<!--                <a-->
-<!--                        target="_blank"-->
-<!--                        href="https://space.bilibili.com/312300240"-->
-<!--                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round"-->
-<!--                        data-toggle="tooltip"-->
-<!--                        data-original-title="Follow us"-->
-<!--                >-->
-<!--                    <i class="fa fa-dribbble"></i>-->
-<!--                </a>-->
+                <!--                <a-->
+                <!--                        target="_blank"-->
+                <!--                        href="https://youtube.com/channel/UCCY24D6Az4xT2XUHpqjHMpg"-->
+                <!--                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"-->
+                <!--                        data-toggle="tooltip"-->
+                <!--                        data-original-title="Like us"-->
+                <!--                >-->
+                <!--                    <i class="fa  fa-youtube-play"></i>-->
+                <!--                </a>-->
+                <!--                <a-->
+                <!--                        target="_blank"-->
+                <!--                        href="https://space.bilibili.com/312300240"-->
+                <!--                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round"-->
+                <!--                        data-toggle="tooltip"-->
+                <!--                        data-original-title="Follow us"-->
+                <!--                >-->
+                <!--                    <i class="fa fa-dribbble"></i>-->
+                <!--                </a>-->
                 <a
                         target="_blank"
                         href="https://github.com/bizhangjie"
@@ -396,6 +397,20 @@
     </div>
 </footer>
 <!-- Core -->
-<script id="lfz" src="https://player.liaofuzhan.com/player/player.js" key=1699784080142442498></script>
+<!--<script id="lfz" src="https://player.liaofuzhan.com/player/player.js" key=1699784080142442498></script>-->
+
+<script>
+
+    // 获取URL中的参数
+    var urlParams = new URLSearchParams(window.location.search);
+    // 设置播放input
+    var urlInput = document.getElementById('url');
+    // 从URL参数中获取值并设置为input元素的值
+    var inputValue = urlParams.get("url");
+    if (inputValue !== null) {
+        urlInput.value = inputValue;
+        dihejk();
+    }
+</script>
 </body>
 </html>
